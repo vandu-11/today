@@ -1,0 +1,31 @@
+/* September.module.css */
+
+.container {
+    width: 100%; /* Set the container to full width */
+    height: 100vh; /* Ensure the calendar covers the entire page vertically */
+    background-color: #f0f0f0; /* Set a background color */
+  }
+  
+  .calendarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 100%; /* Make the container fill the entire viewport height */
+    background-color: #fff; /* Calendar background color */
+  }
+  
+  .react-calendar {
+    width: 100%; /* Make the calendar fill the container */
+    max-width: none;
+  }
+/* ProfessionalCalendar.module.css */
+
+.calendarContainer {
+    width: 100%; /* Set the calendar container to full width */
+    height: 100vh; /* Ensure the calendar covers the entire page vertically */
+    background-color: #f0f0f0; /* Set a background color */
+  }
+  
+  /* Adjust the calendar component styles if needed */
+    

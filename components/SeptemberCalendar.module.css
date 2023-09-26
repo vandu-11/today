@@ -1,0 +1,27 @@
+/* SeptemberCalendar.module.css */
+
+/* Calendar container */
+.calendar-container {
+    width: 100%; /* Set the width to 100% to cover the entire page */
+    max-width: none; /* Remove the maximum width constraint, if any */
+  }
+  
+  .event {
+    background-color: #f39f9f;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 80%; /* Adjust the event width as needed */
+    max-width: 300px; /* Optionally set a maximum width for events */
+    margin: 0 auto; /* Center the events horizontally */
+  }
+  
+  .event-title {
+    font-weight: bold;
+  }
+  
+  .event-details {
+    font-size: 12px;
+    color: #666;
+  }
+  

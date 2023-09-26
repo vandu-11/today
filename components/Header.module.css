@@ -1,0 +1,58 @@
+/* Header.module.css */
+
+/* Common styles for both mobile and desktop */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-image: url('/background.webp'); /* Relative path from the public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 1440px;
+}
+
+.schoolInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.schoolName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f6eeee;
+}
+
+.address {
+  font-size: 14px;
+  color:#f6eeee;
+}
+
+/* Styles for desktop mode (min-width: 768px) */
+@media (min-width: 768px) {
+  .container {
+    padding: 30px 50px; /* Increase the horizontal padding */
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .schoolInfo {
+    margin-left: 20px; /* Adjust the margin for better spacing */
+  }
+
+  .schoolName {
+    font-size: 24px; /* Increase the font size for desktop */
+  }
+}
